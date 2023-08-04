@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/java"
+        android:title="Option1" />
+
+    <item
+        android:id="@+id/kotlin"
+        android:title="Option2" />
+
+    <item
+        android:id="@+id/android"
+        android:title="Option3" />
+
+    <item
+        android:id="@+id/react_native"
+        android:title="Option4" />
+</menu>

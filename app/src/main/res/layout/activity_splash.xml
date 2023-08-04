@@ -1,0 +1,71 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EEE9DA"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ivLoanApplication"
+                android:layout_width="@dimen/height_300"
+                android:layout_height="@dimen/height_250"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo1"
+                android:layout_marginTop="@dimen/margin_120"
+                android:visibility="visible"
+              />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvCmpyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivLoanApplication"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_20"
+                android:fontFamily="@font/lato_bold"
+                android:text="Kalyani Technoforge"
+                android:textColor="@color/colorTextBlue"
+                android:textSize="@dimen/margin_25"
+                android:textStyle="bold" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvGetInTouch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tvDescGetInTouch"
+                android:gravity="center_horizontal"
+                android:text="Kalyani Technoforge"
+                android:fontFamily="@font/lato_bold"
+                android:textColor="@color/colorTextBlue"
+                android:textSize="@dimen/title_18"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvDescGetInTouch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center_horizontal"
+                android:text="Version 1.4"
+                android:textSize="@dimen/subtitle_16" />
+
+        </RelativeLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

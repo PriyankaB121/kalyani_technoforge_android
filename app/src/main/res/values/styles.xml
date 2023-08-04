@@ -1,0 +1,360 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#090909</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorTextBlue</item>
+        <item name="android:textColorSecondary">@color/colorMenuTitle</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="BottomNavigationThemeAppBar" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/colorTextBlue</item>
+        <item name="android:textColorSecondary">@color/colorMenuTitle</item>
+        <item name="android:textSize">@dimen/text_size_10</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="BaseBottomSheetDialog" />
+
+    <style name="BaseBottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="bottomSheetStyle">@style/BottomSheet</item>
+    </style>
+
+    <!-- set the rounded drawable as background to your bottom sheet -->
+    <style name="BottomSheet" parent="@style/Widget.Design.BottomSheet.Modal">
+        <!--        <item name="android:background">@drawable/bg_bottom_sheet</item>-->
+    </style>
+
+<!--    <style name="positiveButtons" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="android:textColor">@color/colorTextBlue</item>-->
+<!--        <item name="android:background">@drawable/button_yellow</item>-->
+<!--    </style>-->
+
+<!--    <style name="negativeButtons" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="android:textColor">@color/colorTextBlue</item>-->
+<!--        <item name="android:background">@drawable/button_blue_corner</item>-->
+<!--    </style>-->
+
+<!--    <style name="grayButtons" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="android:textColor">@color/colorWhite</item>-->
+<!--        <item name="android:background">@drawable/button_gray</item>-->
+<!--    </style>-->
+
+<!--    <style name="btnCWhiteBBlue" parent="Theme.AppCompat.Light.Dialog">-->
+<!--        <item name="android:textColor">@color/colorWhite</item>-->
+<!--        <item name="android:background">@drawable/button_white_corner</item>-->
+<!--    </style>-->
+
+<!--    <style name="rbPayment" parent="@android:style/Widget.CompoundButton.RadioButton">-->
+<!--        <item name="android:button">@drawable/custom_radio_button</item>-->
+<!--    </style>-->
+    <!--Progress dialog style-->
+    <style name="ProgressDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- mPIN view pin style-->
+    <style name="RegularPinEditText">
+        <item name="android:gravity">center</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:minEms">2</item>
+        <item name="android:drawablePadding">-15dp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:inputType">number</item>
+        <item name="android:digits">0123456789</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+<!--        <item name="android:paddingStart">@dimen/otp_edit_text_start_padding</item>-->
+<!--        <item name="android:paddingEnd">@dimen/otp_edit_text_end_padding</item>-->
+<!--        <item name="android:paddingTop">@dimen/otp_edit_text_top_padding</item>-->
+<!--        <item name="android:paddingBottom">@dimen/otp_edit_text_bottom_padding</item>-->
+<!--        <item name="android:drawableTop">@drawable/bg_gray_otp_unselected_editetxtr</item>-->
+<!--        <item name="android:background">@drawable/bg_otp_edit_text</item>-->
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+
+    <!-- mPIN view pin style-->
+<!--    <style name="RegularPinImageView">-->
+<!--        <item name="android:gravity">center</item>-->
+<!--        <item name="android:paddingStart">@dimen/otp_edit_text_start_padding</item>-->
+<!--        <item name="android:paddingEnd">@dimen/otp_edit_text_end_padding</item>-->
+<!--        <item name="android:paddingTop">@dimen/otp_edit_text_start_padding</item>-->
+<!--        <item name="android:paddingBottom">@dimen/otp_edit_text_start_padding</item>-->
+<!--        <item name="srcCompat">@drawable/bg_gray_otp_unselected_editetxtr</item>-->
+<!--        <item name="android:background">@drawable/bg_otp_edit_text</item>-->
+<!--        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>-->
+<!--    </style>-->
+    <!-- Base style for Regular Customer TextView -->
+    <style name="BaseTextView" parent="android:Widget.TextView">
+
+        <!-- Common attributes to come here -->
+        <!-- Default Text View color -->
+
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    ---------------------------------Text Size EXTRA
+    LARGE/LARGE/MEDIUM/SMALL-----------------------------------------------------------
+    <!--Extra Large-->
+    <style name="BaseTextView.ExtraLarge">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+    </style>
+
+    <!--Large-->
+    <style name="BaseTextView.Large">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Large</item>
+    </style>
+
+    <!--Large-->
+    <style name="BaseTextView.Medium">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+    </style>
+
+    <style name="BaseTextView.Small">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    ---------------------------------Text Style
+    BOLD/NORMAL/ITALIC-----------------------------------------------------------
+    <!--ExtraLarge Bold-->
+    <style name="BaseTextView.ExtraLarge.Bold">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--ExtraLarge Normal-->
+    <style name="BaseTextView.ExtraLarge.Normal">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--ExtraLarge Italic-->
+    <style name="BaseTextView.ExtraLarge.Italic">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--ExtraLarge Bold-->
+    <style name="BaseTextView.Large.Bold">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--ExtraLarge Normal-->
+    <style name="BaseTextView.Large.Normal">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--ExtraLarge Italic-->
+    <style name="BaseTextView.Large.Italic">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--ExtraLarge Bold-->
+    <style name="BaseTextView.Medium.Bold">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--ExtraLarge Normal-->
+    <style name="BaseTextView.Medium.Normal">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--ExtraLarge Italic-->
+    <style name="BaseTextView.Medium.Italic">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!--ExtraLarge Bold-->
+    <style name="BaseTextView.Small.Bold">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--ExtraLarge Normal-->
+    <style name="BaseTextView.Small.Normal">
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!--Small Text Blue-->
+    <style name="BaseTextView.Small.Normal.ColorBlueStyleSmallNormal">
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+    </style>
+
+    <!--Normal Text Blue-->
+    <style name="BaseTextView.Medium.Bold.ColorBlueStyleMediumBold">
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <!--Normal Text Blue-->
+    <style name="BaseTextView.colorBlueStyleOutstandingAmt">
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">@dimen/subtitle_16</item>
+    </style>
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#9D9FA1</item>
+        <item name="android:textColorHint">#9D9FA1</item>
+        <item name="colorControlNormal">#9D9FA1</item>
+        <item name="colorControlActivated">#9D9FA1</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorGrayView</item>
+    </style>
+
+    <style name="EditTextStyleNoUnderline" parent="Widget.AppCompat.EditText">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="colorControlHighlight">@color/colorTextBlue</item>
+        <item name="backgroundTint">@color/colorTransparent</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+        <item name="colorControlNormal">@color/color_hint</item>
+        <item name="colorControlActivated">@color/colorTextBlue</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="colorControlHighlight">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="EditTextStyleInquire" parent="Widget.AppCompat.EditText">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/color_hint</item>
+        <item name="colorControlNormal">@color/color_hint</item>
+        <item name="colorControlActivated">@color/colorTextBlue</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="colorControlHighlight">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="SpinnerTheme" parent="Base.Widget.AppCompat.Spinner.Underlined">
+<!--        <item name="android:background">@drawable/dropdown_arrow</item>-->
+    </style>
+
+    <style name="IndicatorStyle" parent="Widget.Design.TabLayout">
+
+        <item name="android:textColor">@color/color_hint</item>
+        <item name="android:maxLines">1</item>
+        <item name="tabTextAppearance">@style/NavigationTabTextAppeareance</item>
+
+    </style>
+
+    <style name="IndicatorStyleBold" parent="Widget.Design.TabLayout">
+
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="tabTextAppearance">@style/NavigationTabTextAppeareance</item>
+    </style>
+
+
+    <style name="NavigationTabTextAppeareance" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="NavigationTabTextAppeareanceBold" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProgressTheme" parent="@android:style/Widget.ProgressBar.Large">
+        <item name="android:animationResolution">33</item>
+    </style>
+
+    <style name="MyErrorText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">#f00</item>
+    </style>
+    <style name="EditTextInputError" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">#f00</item>
+        <item name="android:textColorHint">@color/colorRedError</item>
+        <item name="colorControlNormal">@color/colorRedError</item>
+        <item name="colorControlActivated">@color/colorRedError</item>
+        <item name="android:textColor">@color/colorRedError</item>
+        <item name="colorControlHighlight">@color/colorRedError</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="AppEditTextInputError" parent="Widget.Design.TextInputLayout">
+        <item name="colorAccent">#9D9FA1</item>
+        <item name="android:textColorHint">@color/colorGrayEditText</item>
+        <item name="colorControlNormal">@color/color_hint</item>
+        <item name="colorControlActivated">@color/colorTextBlue</item>
+        <item name="android:textColor">@color/colorGrayEditText</item>
+        <item name="colorControlHighlight">@color/colorButtonYellow</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+    </style>
+
+    <style name="AppEditTextInputGray" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorHint">@color/colorGrayEditText</item>
+        <item name="colorControlNormal">@color/color_hint</item>
+        <item name="android:textStyle">normal</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="colorControlActivated">@color/colorTextBlue</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+    </style>
+
+    <style name="CardViewBgTransparentRoundCorner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">@dimen/margin_15</item>
+    </style>
+
+    <style name="NICEditTextStyle" parent="Widget.AppCompat.EditText">
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorGrayEditText</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorTextBlue</item>
+        <item name="colorControlHighlight">@color/colorTextBlue</item>
+        <item name="fontFamily">@font/open_sans_regular</item>
+        <item name="android:textSize">@dimen/txt_size_18</item>
+    </style>
+
+    <style name="BottomSheetShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+
+
+</resources>

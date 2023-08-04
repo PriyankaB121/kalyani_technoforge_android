@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#9D9FA1</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteAlpha">#80ffffff</color>
+    <color name="colorOpacityGray">#0d000000</color>
+    <color name="colorOFFWhite">#f8f8ff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorTextBlue">#004268</color>
+    <color name="colorText">#2b2d42</color>
+    <color name="label">#888787</color>
+    <color name="label2">#e5e5e5</color>
+    <color name="colorFaqBackground">#EFEFEF</color>
+    <color name="colorButtonYellow">#FEC10D</color>
+    <color name="colorTermsBlue">#E9EFF4</color>
+    <color name="colorMenuTitle">#777777</color>
+    <color name="colorNavBottom">#EBF8F8F8</color>
+    <color name="colorGrayMakePayment">#F8F8F8</color>
+    <color name="colorDashboardBlue">#d900ADEF</color>
+    <color name="colorSkyBlue">#00ADEF</color>
+    <color name="colorSeekbar">#26FFFFFF</color>
+    <color name="colorSkyBlueCimoCredit">#34C7FF</color>
+    <color name="colorBlueView">#0B5580</color>
+    <color name="colorRed">#FF3F3F</color>
+    <color name="colorRedError">#FF0000</color>
+    <color name="colorGray">#F0F0F0</color>
+    <color name="colorGrayMpin">#E7E7E7</color>
+    <color name="colorCardGreenColor">#42A43B</color>
+    <color name="colorGrayOtp">#C4C4C4</color>
+    <color name="colorGrayArrears">#EEEEEE</color>
+    <color name="colorContactGray">#F3F3F3</color>
+    <color name="colorGrayEditText">#9D9FA1</color>
+    <color name="colorGrayOTPContinue">#808080</color>
+    <color name="colorSeekBarGray">#D6D6D6</color>
+    <color name="colorViewGray">#E9E9E9</color>
+    <color name="colorBottomShitView">#C0E3BD</color>
+    <color name="colorGrayView">#DBDBDB</color>
+    <color name="colorDarkAgreementBlue">#0A88BD</color>
+    <color name="colorCreditCardGreenBackground">#50B748</color>
+    <color name="colorCreditCardGreen">#56C54E</color>
+    <color name="colorAgreementBottom">#caeaf7</color>
+    <color name="colorMoCreditBottom">#ccffffff</color>
+    <color name="colorCreditCardBottom">#dcf1da</color>
+    <color name="colorShellCardBottom">#e9eef1</color>
+    <color name="colorDarkAgreementGreen">#42A43B</color>
+    <color name="colorGrayProductDetails">#F5F5F5</color>
+    <color name="colorGrayPaymentDetails">#F1F1F1</color>
+    <color name="colorGrayProductDetailsView">#E3E3E3</color>
+    <color name="colorCardSuccess">#054D76</color>
+    <color name="colorGrayText">#8C8C8C</color>
+    <color name="colorGrayTextVersion">#828282</color>
+    <color name="colorProductBlue">#009CDD</color>
+    <color name="colorProductBlueOpacity">#33009CDD</color>
+    <color name="colorProductCardBlue">#26AFE8</color>
+    <color name="colorProductCardFaintBlue">#3CBFF5</color>
+    <color name="tv_color">#849ca2</color>
+    <color name="colorGreen">#00b300</color>
+    <color name="colorShellCard">#00A151</color>
+    <color name="colorBlue">#009CDD</color>
+    <color name="colorViewGrayAgreement">#D2D2D2</color>
+    <color name="colorOTPBox">#EEEEEE</color>
+    <color name="colorSuccessBlueCorner">#0B5A87</color>
+    <color name="colorAgreementSubTitleGray">#989898</color>
+    <color name="colorGrayViewPayment">#ECECEC</color>
+    <color name="colorTransactionBackground">#EBEBEB</color>
+    <color name="colorGrayViewPH">#E0E0E0</color>
+    <color name="colorSemiGreen">#22BD3B</color>
+    <color name="colorWrongAmountRed">#E93E3E</color>
+    <color name="colorGreenInitiated">#2FAA3C</color>
+    <color name="colorGrayCompleted">#BCBCBC</color>
+    <color name="colorGrayInProgress">#9F9F9F</color>
+    <color name="colorGrayInProgressText">#8C9093</color>
+    <color name="colorGrayTextNewsOffers">#646464</color>
+    <color name="colorGrayInProgressBackground">#D0D0D0</color>
+    <color name="colorGrayTextView">#6B6A6A</color>
+    <color name="colorIpsSuccessGreen">#4CD964</color>
+    <color name="colorIpsFailRed">#FD6767</color>
+
+
+    <!-- Login background color -->
+    <color name="colorLoginYellow">#FCB52B</color>
+    <color name="colorLoginFaintYellow">#FFC20E</color>
+    <color name="colorLoginGreen">#5BB449</color>
+    <color name="colorLoginDarkGreen">#00A052</color>
+    <color name="colorLoginFaintGreen">#50B848</color>
+    <color name="colorLoginOrange">#F47920</color>
+    <color name="colorLoginMaroon">#E33F76</color>
+    <color name="colorLoginSkyBlue">#03BED7</color>
+    <color name="colorLoginFaintBlue">#01A7CF</color>
+    <color name="colorIndicator">#c1c1c1</color>
+    <color name="toolbarForegroundColor">#004268</color>
+    <color name="color_hint">#9D9FA1</color>
+    <color name="semi_trans_black">#80000000</color>
+    <color name="colorShellCardGrayBackground">#8FABB7</color>
+    <color name="colorShellCardGreen">#9FBBC7</color>
+
+    <color name="colorMoCreditCardBg">#02BED6</color>
+    <color name="colorMoCreditBackground">#009eaf</color>
+    <color name="colorMoCreditBg">#009eaf</color>
+    <color name="colorMoCardGrBackground">#02BED6</color>
+
+    <color name="colorSeekbarProgress">#004268</color>
+
+    <color name="colorGreenBgCheckbox">#22C44F</color>
+
+    <color name="colorProductFinanceTvDisclaimer">#baebf1</color>
+    <color name="colorCreditCardTvDisclaimer">#cbeac8</color>
+
+    <color name="colorDividerNewMoCredit">#AED3E2</color>
+    <color name="colorDividerNewShellCard">#C0E3BD</color>
+
+    <color name="colorDividerCardStatement">#ececec</color>
+
+    <color name="colorGrayStroke">#C4C4C4</color>
+
+    <color name="colorWhiteTransparent">#d9ffffff</color>
+
+    <color name="colorRedQuickLinkNote">#F31616</color>
+    <color name="colorFaintGray">#9C9C9C</color>
+
+    <color name="colorAlertDialog">#99000000</color>
+    <color name="primaryColor">#004268</color>
+
+    <color name="colorGrey">#B0B0B0</color>
+    <color name="cardColor">#dfe7ec</color>
+    <color name="colorGrayLight">#F3F3F3</color>
+    <color name="loancardBackColor">#F4F4F4</color>
+    <color name="black_transparent">#30000000</color>
+    <color name="project">#77BDAE</color>
+    <color name="background">#EEE9DA</color>
+
+
+
+        <color name="bottomicon">#282d41</color>
+
+        <color name="white_alpha">#F2FFFFFF</color>
+        <color name="soft_grey">#ECEEEF</color>
+        <color name="strong_grey">#50545A</color>
+        <!--  <color name="colorPrimary">#049444</color>
+          <color name="colorPrimaryDark">#049444</color>
+          <color name="colorAccent">#FF5722</color>-->
+        <color name="langgraycolor">#838383</color>
+        <color name="light_grey">#E0F2F1</color>
+        <color name="lightblack">#444444</color>
+        <color name="lightblack1">#535252</color>
+        <color name="gray_textcolor">#707070</color>
+        <color name="transparent">#0CFFFFFF</color>
+        <color name="white">#ffffff</color>
+        <color name="light">#f5f5f5</color>
+        <color name="black">#000000</color>
+        <color name="red">#FF2E2E</color>
+        <color name="green">#4CAF50</color>
+        <color name="dark_green">#06d6a0</color>
+        <color name="orange">#F14D19</color>
+        <color name="yellow">#E3AC08</color>
+        <color name="mapline">#CDDC39</color>
+        <color name="border">#ffffff</color>
+        <color name="blue">#2196F3</color>
+        <color name="lightblue">#7CBFF4</color>
+        <color name="dark_blue">#192E40</color>
+        <color name="grey">#807D7D</color>
+        <color name="themetran">#5C000000</color>
+        <color name="gray">#4A000000</color>
+        <color name="transperant">#0000ffff</color>
+        <color name="highlight">#DEEEF6</color>
+        <color name="transperant_green">#B5049444</color>
+        <color name="light_gray">#f2f2f2</color>
+
+
+</resources>

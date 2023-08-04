@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kalyani Technoforge</string>
+    <string name="txt_login">We will send you an <b>One Time Password</b> on this mobile number.</string>
+    <string name="txt_OTP">Enter the OTP sent to +91 – 8080038056</string>
+    <string name="employee_code">Employee Code</string>
+    <string name="department">Department</string>
+</resources>

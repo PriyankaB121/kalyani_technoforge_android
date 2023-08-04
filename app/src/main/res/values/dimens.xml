@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Button Rounded rect radius-->
+    <dimen name="button_rect_radius">8dp</dimen>
+    <dimen name="button_rect_radius_6">6dp</dimen>
+    <dimen name="select_account_rect_radius">15dp</dimen>
+    <dimen name="mail_log_icon_size">40dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="otp_border_width">1dp</dimen>
+    <dimen name="otp_box_size">10dp</dimen>
+    <dimen name="txt_size_13">13sp</dimen>
+    <dimen name="txt_size_18">18sp</dimen>
+
+    <dimen name="margin_0">0dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_11">11dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_17">17dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_21">21dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_27">27dp</dimen>
+    <dimen name="margin_28">28dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_32">32dp</dimen>
+    <dimen name="margin_37">37dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_42">42dp</dimen>
+    <dimen name="margin_43">43dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_54">54dp</dimen>
+    <dimen name="margin_56">56dp</dimen>
+    <dimen name="margin_58">58dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_62">62dp</dimen>
+    <dimen name="margin_68">68dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_85">85dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_120">120dp</dimen>
+    <dimen name="margin_125">125dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_142">142dp</dimen>
+    <dimen name="margin_145">145dp</dimen>
+    <dimen name="margin_230">230dp</dimen>
+    <dimen name="margin_240">240dp</dimen>
+    <dimen name="margin_160">160dp</dimen>
+    <dimen name="margin_170">170dp</dimen>
+    <dimen name="margin_180">180dp</dimen>
+    <dimen name="margin_190">190dp</dimen>
+    <dimen name="width_150">150dp</dimen>
+    <dimen name="width_152">152dp</dimen>
+    <dimen name="width_160">160dp</dimen>
+    <dimen name="width_170">170dp</dimen>
+    <dimen name="width_180">180dp</dimen>
+    <dimen name="height_200">200dp</dimen>
+    <dimen name="height_250">250dp</dimen>
+    <dimen name="height_270">270dp</dimen>
+    <dimen name="height_300">300dp</dimen>
+    <dimen name="height_320">320dp</dimen>
+    <dimen name="height_360">360dp</dimen>
+    <dimen name="profile_pic_92">92dp</dimen>
+    <dimen name="text_size_22">22dp</dimen>
+    <dimen name="margin_extra_large">28dp</dimen>
+    <dimen name="btn_register_start_220">220dp</dimen>
+    <dimen name="btn_register_not_now_210">210dp</dimen>
+
+
+    <!-- Font Sizes -->
+    <dimen name="title_18">18sp</dimen>
+    <dimen name="title_20">20sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="subtitle_16">16sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="margin_35">35sp</dimen>
+
+    <!-- Button text default padding left and right -->
+    <dimen name="button_default_padding_left">32dp</dimen>
+    <dimen name="button_default_padding_right">32dp</dimen>
+    <dimen name="button_default_padding_bottom">18dp</dimen>
+    <dimen name="button_default_padding_top">18dp</dimen>
+
+    <dimen name="default_common_padding">8dp</dimen>
+
+    <dimen name="card_image_radius">15dp</dimen>
+
+    <dimen name="nic_edit_text_size">18dp</dimen>
+
+    <dimen name="welcome_screen_card_height">250dp</dimen>
+    <dimen name="welcome_screen_card_update">350dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+
+    <dimen name="login_back_width">375dp</dimen>
+    <dimen name="login_back_height">812dp</dimen>
+
+    <dimen name="common_dialog_button">130dp</dimen>
+
+
+    <dimen name="no_margin">0dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_very_small">8dp</dimen>
+    <dimen name="margin_xsmall">10dp</dimen>
+    <dimen name="margin_msmall">12dp</dimen>
+    <dimen name="margin_small">16dp</dimen>
+    <dimen name="text_Size_17">17sp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="indicator_height">2dp</dimen>
+    <dimen name="pager_buttons_height">32dp</dimen>
+    <dimen name="seekbar_height">10dp</dimen>
+    <dimen name="viewpager_height">210dp</dimen>
+    <dimen name="news_height">175dp</dimen>
+    <dimen name="web_seekbar_height">2dp</dimen>
+
+    <dimen name="lineSpacing">1.5dp</dimen>
+
+    <dimen name="toolbar_text_size">17sp</dimen>
+    <dimen name="title_16">16dp</dimen>
+
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/project"
+        android:gravity="center_vertical">
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@color/project"
+        android:gravity="center_vertical">
+        <ImageButton
+            android:id="@+id/arrow"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rrow_back" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/lato_bold"
+            app:title="My Profile"
+            app:titleTextColor="@color/black"></androidx.appcompat.widget.Toolbar>
+
+
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp">
+
+
+        <RelativeLayout
+            android:id="@+id/rlProfilePic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_20">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfilePicture"
+                android:layout_width="@dimen/profile_pic_92"
+                android:layout_height="@dimen/profile_pic_92"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_20"
+                android:visibility="gone" />
+
+            <RelativeLayout
+                android:id="@+id/rlProfileDetailsProfilePic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/circle_profile_pic"
+                android:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tvProfileUserIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/margin_30"
+                    android:textStyle="bold"
+                    tools:text="VK"
+                    android:visibility="gone"/>
+                <ImageView
+                    android:layout_width="@dimen/margin_50"
+                    android:layout_height="@dimen/margin_50"
+                    android:src="@drawable/person_24"
+                    android:tint="@color/white"
+                    android:layout_centerInParent="true"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans_bold"
+            android:text=""
+            android:textColor="#020202"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:fontFamily="@font/lato_bold"
+            android:text=""
+            android:textColor="#131212"
+            android:textSize="@dimen/title_20" />
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="20dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="10">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="5">
+      <TextView
+          android:id="@+id/tvEmpNo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="001"
+          android:textSize="16sp"
+          app:titleTextColor="@color/colorText"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:fontFamily="@font/font_family_bold"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/employee_code"
+              android:textSize="14sp"
+              android:gravity="center"
+              android:textColor="@color/label"
+              android:fontFamily="@font/lato_regular"/>
+  </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_weight="5"
+          >
+          <TextView
+              android:id="@+id/tvDept"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Production"
+              android:textSize="16sp"
+              app:titleTextColor="@color/colorText"
+              android:textStyle="bold"
+              android:gravity="center"
+              android:fontFamily="@font/font_family_bold"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/department"
+              android:textSize="14sp"
+              android:gravity="center"
+              android:textColor="@color/label"
+
+              android:fontFamily="@font/lato_regular"/>
+      </LinearLayout>
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="10"
+          android:layout_marginTop="40dp">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_weight="5">
+              <TextView
+                  android:id="@+id/tvBranch"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Mundhwa"
+                  android:textSize="16sp"
+                  app:titleTextColor="@color/colorText"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:textColor="@color/label"
+                  android:fontFamily="@font/font_family_bold"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Branch"
+                  android:textSize="14sp"
+                  android:gravity="center"
+                  android:fontFamily="@font/lato_regular"/>
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_weight="5"
+              >
+              <TextView
+                  android:id="@+id/tvDivision"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Pune"
+                  android:textSize="16sp"
+                  app:titleTextColor="@color/colorText"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:fontFamily="@font/font_family_bold"/>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Division"
+                  android:textSize="14sp"
+                  android:gravity="center"
+                  android:textColor="@color/label"
+                  android:fontFamily="@font/lato_regular"/>
+          </LinearLayout>
+      </LinearLayout>
+
+  </LinearLayout>
+</LinearLayout>

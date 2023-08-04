@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/navHostFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/nvBottmNavigationMenu"
+        android:layout_below="@id/appBarLayout"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/app_navigations"
+        tools:ignore="NotSibling" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentInsetStart="@dimen/margin_0"
+            app:titleTextColor="@color/colorTextBlue">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ivToolBarBackArrow"
+                            android:layout_width="@dimen/margin_30"
+                            android:layout_height="@dimen/margin_30"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/margin_very_small"
+                            android:layout_marginEnd="@dimen/margin_4"
+                            android:padding="@dimen/margin_tiny"
+                            android:src="@drawable/ic_toolbar_left_arrow"
+                            android:visibility="gone" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <RelativeLayout
+                        android:id="@+id/rlToolbarTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:layout_marginEnd="@dimen/margin_40">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/toolbarTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_40"
+                            android:fontFamily="@font/open_sans_bold"
+                            android:gravity="center"
+                            android:maxLines="2"
+                            android:paddingStart="@dimen/margin_tiny"
+                            android:paddingEnd="@dimen/margin_tiny"
+                            android:textColor="@color/colorTextBlue"
+                            android:textSize="@dimen/text_Size_17"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:orientation="horizontal">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivToolBarShareIcon"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="@dimen/margin_30"
+                        android:layout_marginEnd="@dimen/margin_7"
+                        android:padding="@dimen/margin_tiny"
+                        android:src="@drawable/ic_menu_home_selected"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivToolLogout"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="@dimen/margin_30"
+                        android:layout_marginEnd="@dimen/margin_7"
+                        android:padding="@dimen/margin_tiny"
+                        android:src="@drawable/ic_logout"
+                        android:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/ivLoanHome"
+                        android:layout_width="@dimen/margin_30"
+                        android:layout_height="@dimen/margin_30"
+                        android:layout_marginEnd="@dimen/margin_7"
+                        android:padding="@dimen/margin_tiny"
+                        android:src="@drawable/ic_menu_home_selected"
+                        android:visibility="gone" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/clBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/bottomAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:theme="@style/BottomNavigationThemeAppBar"
+            app:fabCradleMargin="@dimen/margin_5"
+            app:fabCradleRoundedCornerRadius="@dimen/margin_5"
+            app:fabCradleVerticalOffset="@dimen/margin_5">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/nvBottmNavigationMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:background="@drawable/transparent_background"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:theme="@style/BottomNavigationTheme"
+                app:itemIconSize="@dimen/margin_21"
+                app:itemTextAppearanceActive="@dimen/text_size_12"
+                app:itemTextAppearanceInactive="@dimen/text_size_12"
+                app:labelVisibilityMode="labeled"
+                app:layout_anchorGravity="bottom"
+                app:layout_constraintBottom_toBottomOf="@id/nvBottmNavigationMenu"
+                app:menu="@menu/bottom_navigation_menu" />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            app:layout_anchor="@id/bottomAppBar" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

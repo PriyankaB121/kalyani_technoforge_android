@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "648904272216",
+    "project_id": "kalyani-technoforge",
+    "storage_bucket": "kalyani-technoforge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648904272216:android:80a8c5a5f824f3eb9ddd2d",
+        "android_client_info": {
+          "package_name": "com.operator.app.kalyanitechnoforge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648904272216-3v6kcss22fbtjs4k48rk5pbffhm8i2db.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.operator.app.kalyanitechnoforge",
+            "certificate_hash": "6439407a5091c694b944b39aa60d819c53cde2b4"
+          }
+        },
+        {
+          "client_id": "648904272216-uq7imrb71s2ej366q7q7pjcc6f1in3e1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW5KhXIn4Y0qMJQePRhNG5gqo6gM-9AKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648904272216-uq7imrb71s2ej366q7q7pjcc6f1in3e1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
